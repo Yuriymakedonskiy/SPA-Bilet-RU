@@ -1,0 +1,783 @@
+body {
+    margin: 0 auto;
+    background-color: #fff
+}
+
+.itd_profile {
+    width: 130px;
+    height: 40px;
+    background-color: #FE7030;
+    border-radius: 15px;
+}
+
+.itd_profile a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 9px;
+}
+
+
+
+#ee {
+    padding: 50px 0 20px 0px;
+}
+
+#banner {
+    background-color: #3468F0;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.min-col h6 {
+    font-size: 13px;
+    font-weight: 700;
+    width: 220px;
+    height: 70px;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 0px 5px 20px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.min-col {
+    margin-top: -60px;
+}
+
+.bilet {
+    float: left;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-device-width:200px) and (max-device-width: 778px) {
+    .min-col h6 {
+        font-size: 9px;
+        font-weight: 700;
+        width: 170px;
+        height: 60px;
+        color: #000;
+        background-color: #fff;
+        padding: 18px 0px 5px 0px;
+        margin: 20px;
+    }
+
+    .bilet {
+        font-size: 25px;
+        padding-top: 39px;
+
+    }
+}
+
+@media only screen and (min-device-width:100px) and (max-device-width: 990px) {
+
+    .carousel-inner {
+        /* margin-left: 200px; */
+    }
+
+    .third {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-device-width:100px) and (max-device-width: 575px) {
+    .carousel-inner {
+        margin-left: 20%;
+    }
+
+    .Early_H1 {
+        margin-left: 9%;
+    }
+
+    .two {
+        display: none;
+    }
+}
+
+
+#buv {
+    font-size: 25px;
+}
+
+h6 {
+    padding-top: 1.5%;
+    padding-bottom: 40px;
+}
+
+
+.otkuda {
+    color: #fff;
+    opacity: 70%;
+    font-size: 9px;
+    margin-left: 10px;
+    margin-bottom: -21px;
+    /* float: left; */
+}
+
+#passanger {
+    margin-left: 40px;
+}
+
+@media only screen and (min-device-width:1400px) and (max-device-width: 2000px) {
+    #passanger {
+        margin-left: -35px;
+    }
+
+}
+
+@media only screen and (min-device-width:988px) and (max-device-width: 1199px) {
+    #passanger {
+        margin-left: 35px;
+    }
+
+}
+
+
+
+.itd_cabinet,
+.itd_obrat,
+.itd_demo,
+.itd_kuda1,
+.itd_count {
+    width: 160px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.itd_demo {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.itd_demo a {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 14px 0px 0px 10px;
+
+}
+
+
+
+.itd_demo i,
+.itd_cabinet i,
+.itd_obrat i,
+.itd_kuda1 i,
+.itd_count i {
+    font-size: 0.8em;
+    padding: 15px 15px 10px 0px;
+    float: right;
+}
+
+.itd_cabinet a,
+.itd_obrat a,
+.itd_kuda1 a,
+.itd_count a {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 11px 0px 0px 10px;
+
+}
+
+.itd_naiti {
+    width: 130px;
+    height: 44px;
+    background-color: #FE7030;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.itd_naiti a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 9px;
+}
+
+::placeholder {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Стиль третьей по счету кнопки в баннере */
+
+/* Внутренние и внешние отступы для группы кнопок*/
+.btn-group {
+    float: left;
+    padding-bottom: 5px;
+    margin: 10px 0px 0px 1px;
+}
+
+
+
+/* Стили для блоков о доходах компаний*/
+.blocks {
+    padding: 23px 0px;
+    height: 603px;
+}
+
+
+
+/* Стиль блока который находится под изображениями компаний */
+.blocksGray {
+    background: #fff url(/image/city3.jpg) no-repeat;
+    color: #fff;
+    padding: 400px 0px 0px 20px;
+    height: auto;
+    margin-bottom: 50px;
+
+}
+
+.blocksTwo {
+    background: #fff url(/image/city2.jpeg) no-repeat;
+    color: #fff;
+    padding: 400px 0px 0px 20px;
+    height: auto;
+    margin-bottom: 50px;
+
+}
+
+/*И стили его заголовков */
+.blocksGray h1 {
+    font-size: 25px;
+}
+
+
+.blocksGray h2 {
+    font-size: 15px;
+}
+
+.blocksGray h6 {
+    font-size: 13px;
+}
+
+.carousel-control-prev-icon {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 100%;
+    margin-right: 100%;
+    margin-bottom: 10%;
+}
+
+.carousel-control-next-icon {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 100%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: blue;
+}
+
+#blue {
+    background-color: #3468F0;
+}
+
+form {
+    background-color: #2E5DD1;
+    padding: 10px 60px 60px 0px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#email {
+    height: 55px;
+    padding: 15px 0px 15px 10px;
+    border-radius: 15px;
+}
+
+.knopki {
+    margin-top: 3%;
+}
+
+
+.subscripTEXT {
+    color: #fff;
+    padding: 10px 0px 15px 0px;
+    height: 55px;
+    font-weight: 300;
+    border: none;
+    background-color: #FE7030;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#subscripTEXT::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+#podpishite {
+    font-size: 25px;
+    color: #fff;
+}
+
+#uznayte {
+    font-size: 15px;
+    color: #fff;
+    opacity: 70%;
+    margin-bottom: 100px;
+}
+
+
+
+/* Основные стили для подвала сайта */
+footer {
+    background-color: #3468F0;
+    width: 100%;
+    min-height: 225px;
+    padding-top: 35px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+footer h5 {
+    font-size: 21px;
+    color: #ffffff;
+    padding-top: 45px;
+
+}
+
+/* При наведении на ссылки в подвале, они будут иметь свою тень красным цветом*/
+footer h4:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: 13% underline #0075ec;
+}
+
+
+.itd_demo,
+.itd_kuda1,
+.itd_count,
+.itd_obrat,
+.itd_cabinet,
+.itd_count {
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+
+.itd_obratno,
+.itd_ludi {
+    width: 100%;
+    height: 124px;
+    background-color: #FE7030;
+    border-radius: 0px;
+    margin-top: 12px;
+}
+
+.itd_kogda {
+    width: 440px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 0px;
+    margin-top: 14px;
+    margin-left: -150px;
+    border: 0.5px solid #000;
+}
+
+.it .itd_city h6,
+.it2 .itd_kogda h6,
+.it3 .itd_obratno h6,
+.it4 .itd_ludi h6,
+.it5 .itd_kuda h6 {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.itd_demo,
+.itd_kuda1,
+.itd_count,
+.itd_obrat,
+.itd_cabinet {
+    display: block;
+    width: 130px;
+    height: 43px;
+    border: none;
+    margin-right: 1px;
+}
+
+.itd_ludi a {
+    margin-bottom: 20px;
+}
+
+/* .itd_check a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none; */
+/* } */
+
+.visible {
+    position: absolute;
+}
+
+
+/* 
+.calendar {
+    font-size: 100%;
+    margin: 0 auto 0;
+    perspective: 1000px;
+    cursor: default;
+    position: relative
+}
+
+.calendar .header {
+    height: 50px;
+    position: relative;
+    color: #fff
+}
+
+.calendar .header .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #308ff0;
+    padding: 0 15px;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+    backface-visibility: hidden;
+    transition: .4s ease-in-out 0s;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .19), 0 8px 17px 0 rgba(0, 0, 0, .2);
+    opacity: 0
+}
+
+.calendar .header .text>span {
+    text-align: center;
+    padding: 15px;
+    display: block
+}
+
+.calendar .header.active .text {
+    transform: rotateX(0deg);
+    opacity: 1
+}
+
+.months {
+    width: 100%;
+    height: 280px;
+    position: relative
+}
+
+.months .hr {
+    height: 1px;
+    margin: 15px 0;
+    background: #ccc
+}
+
+.month {
+    padding: 15px;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .4s ease-in-out 0s;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .19), 0 8px 17px 0 rgba(0, 0, 0, .2)
+}
+
+.months[data-flow="left"] .month {
+    transform: rotateY(-180deg)
+}
+
+.months[data-flow="right"] .month {
+    transform: rotateY(180deg)
+}
+
+.table {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    display: table
+}
+
+.table .row {
+    display: table-row
+}
+
+.table .row.head {
+    color: #308ff0;
+    text-transform: uppercase
+}
+
+.table .row .cell {
+    width: 14.28%;
+    padding: 5px;
+    text-align: center;
+    display: table-cell
+}
+
+.table .row .cell.disable {
+    color: #ccc
+}
+
+.table .row .cell span {
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    transition: color, background .4s ease-in-out 0s
+}
+
+.table .row .cell.active span {
+    color: #fff;
+    background-color: #308ff0
+}
+
+.months .month[data-active="true"] {
+    transform: rotateY(0)
+}
+
+.header [data-action] {
+    color: inherit;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    opacity: 0;
+    transition: all .4s ease-in-out 0s
+}
+
+.header [data-action]>i {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -10px
+}
+
+.header [data-action]>i:before,
+.header [data-action]>i:after {
+    top: 50%;
+    margin-top: -1px;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    border-top: 2px solid;
+    border-radius: 2px
+}
+
+.header [data-action*="prev"] {
+    left: 15px
+}
+
+.header [data-action*="next"] {
+    right: 15px
+}
+
+.header [data-action*="prev"]>i:before,
+.header [data-action*="prev"]>i:after {
+    left: 0
+}
+
+.header [data-action*="prev"]>i:before {
+    top: 3px;
+    transform: rotate(-45deg)
+}
+
+.header [data-action*="prev"]>i:after {
+    top: auto;
+    bottom: 3px;
+    transform: rotate(45deg)
+}
+
+.header [data-action*="next"]>i:before,
+.header [data-action*="next"]>i:after {
+    right: 0
+}
+
+.header [data-action*="next"]>i:before {
+    top: auto;
+    bottom: 3px;
+    transform: rotate(-45deg)
+}
+
+.header [data-action*="next"]>i:after {
+    top: 3px;
+    transform: rotate(45deg)
+}
+
+.header.active [data-action] {
+    opacity: 1
+}
+
+[data-theme="jan"] {
+    background-color: #90CAF9
+}
+
+[data-theme="jan"] .row.head {
+    color: #1E88E5
+}
+
+[data-theme="jan"] .header .text,
+[data-theme="jan"] .table .row .cell.active span {
+    background-color: #1E88E5
+}
+
+[data-theme="feb"] {
+    background-color: #81D4FA
+}
+
+[data-theme="feb"] .row.head {
+    color: #039BE5
+}
+
+[data-theme="feb"] .header .text,
+[data-theme="feb"] .table .row .cell.active span {
+    background-color: #039BE5
+}
+
+[data-theme="mar"] {
+    background-color: #80CBC4
+}
+
+[data-theme="mar"] .row.head {
+    color: #00897B
+}
+
+[data-theme="mar"] .header .text,
+[data-theme="mar"] .table .row .cell.active span {
+    background-color: #00897B
+}
+
+[data-theme="apr"] {
+    background-color: #C5E1A5
+}
+
+[data-theme="apr"] .row.head {
+    color: #7CB342
+}
+
+[data-theme="apr"] .header .text,
+[data-theme="apr"] .table .row .cell.active span {
+    background-color: #7CB342
+}
+
+[data-theme="may"] {
+    background-color: #FFE082
+}
+
+[data-theme="may"] .row.head {
+    color: #FFB300
+}
+
+[data-theme="may"] .header .text,
+[data-theme="may"] .table .row .cell.active span {
+    background-color: #FFB300
+}
+
+[data-theme="jun"] {
+    background-color: #FFAB91
+}
+
+[data-theme="jun"] .row.head {
+    color: #F4511E
+}
+
+[data-theme="jun"] .header .text,
+[data-theme="jun"] .table .row .cell.active span {
+    background-color: #F4511E
+}
+
+[data-theme="jul"] {
+    background-color: #CE93D8
+}
+
+[data-theme="jul"] .row.head {
+    color: #8E24AA
+}
+
+[data-theme="jul"] .header .text,
+[data-theme="jul"] .table .row .cell.active span {
+    background-color: #8E24AA
+}
+
+[data-theme="aug"] {
+    background-color: #B39DDB
+}
+
+[data-theme="aug"] .row.head {
+    color: #5E35B1
+}
+
+[data-theme="aug"] .header .text,
+[data-theme="aug"] .table .row .cell.active span {
+    background-color: #5E35B1
+}
+
+[data-theme="sep"] {
+    background-color: #EF9A9A
+}
+
+[data-theme="sep"] .row.head {
+    color: #E53935
+}
+
+[data-theme="sep"] .header .text,
+[data-theme="sep"] .table .row .cell.active span {
+    background-color: #E53935
+}
+
+[data-theme="oct"] {
+    background-color: #CE93D8
+}
+
+[data-theme="oct"] .row.head {
+    color: #8E24AA
+}
+
+[data-theme="oct"] .header .text,
+[data-theme="oct"] .table .row .cell.active span {
+    background-color: #8E24AA
+}
+
+[data-theme="nov"] {
+    background-color: #BCAAA4
+}
+
+[data-theme="nov"] .row.head {
+    color: #6D4C41
+}
+
+[data-theme="nov"] .header .text,
+[data-theme="nov"] .table .row .cell.active span {
+    background-color: #6D4C41
+}
+
+[data-theme="dec"] {
+    background-color: #B0BEC5
+}
+
+[data-theme="dec"] .row.head {
+    color: #546E7A
+}
+
+[data-theme="dec"] .header .text,
+[data-theme="dec"] .table .row .cell.active span {
+    background-color: #546E7A
+} */

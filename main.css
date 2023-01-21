@@ -1,0 +1,1304 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    font-family: "Montserrat";
+    margin: 0 auto;
+    background-color: #fff
+}
+
+.itd_profile a{
+    width: 130px;
+    height: 40px;
+    background-color: #FE7030;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 9px;
+}
+
+
+.itd_profile:hover a{
+    color: #FE7030;
+    background-color: #fff;
+}
+
+.logotype{
+    padding: 15px 0px;
+}
+
+@media only screen and (max-device-width: 335px){
+    .itd_profile {
+        min-width: 70px;
+        max-width: 90px;
+        height: 37px;
+        background-color:#FE7030;
+        border-radius: 15px;
+        
+    }
+
+    .logotype{
+        width: 50px;
+        padding: 15px 12px;
+    }
+
+    .logotype a img{
+        max-width: 150px;
+        min-width: 60px;
+        
+    }
+}
+
+@media only screen and (max-device-width: 251px){
+    .itd_profile {
+        margin-top:60px;
+        
+    }
+}
+
+
+#GalHeader h4 {
+    padding: 60px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner {
+    background-color: #3468F0;
+    color: #fff;
+}
+
+#info {
+    font-size: 39px;
+    line-height: 1.2;
+}
+
+@media only screen and (min-device-width: 2209px) {
+    .imgM {
+        overflow: hidden;
+        float: right;
+        min-height: 300px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-device-width: 1199px) {
+    .imgM {
+        display: none;
+    }
+
+    .Zapolnit {
+        margin-bottom: -10px;
+    }
+
+}
+
+.imgM {
+    overflow: hidden;
+    float: right;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    min-height: 370px;
+    max-height: 800px;
+    object-fit: cover;
+    z-index: 1;
+    margin-top: -70px;
+}
+
+
+#men {
+    overflow: hidden;
+    float: right;
+    padding-top: 0.1em;
+    padding-right: 6em;
+    max-width: 100%;
+    min-height: 370px;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.min-col h6 {
+    font-size: 15px;
+    font-weight: 500;
+    width: 270px;
+    height: 76px;
+    color: #000;
+    background-color: #fff;
+    padding: 25px 0px 5px 20px;
+    margin: 20px;
+    box-shadow:
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.min-col {
+    margin-top: -60px;
+}
+
+.min-colNone img {
+    min-width: 40px;
+    max-width: 60px;
+    padding: -39px 11px 10px 6px;
+    margin: -20px 0px 0px 40px;
+}
+
+.min-colNone h6 {
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 60px;
+    color: #000;
+    background-color: #fff;
+    padding: 25px 0px 20px 20px;
+    margin: 20px;
+    box-shadow:
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+@media only screen and (max-device-width: 270px) {
+    #aleydavia {
+        display: none;
+    }
+
+    footer h4 {
+        margin-bottom: 9px;
+        font-size: 15px;
+        color: #ffffff;
+
+    }
+
+    footer h5 {
+        font-size: 13px;
+        color: #ffffff;
+        padding-top: 45px;
+    }
+
+}
+
+.bilet {
+    float: left;
+    min-width: 20px;
+    max-width: 45px;
+    padding: 39px 11px 10px 6px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-device-width:714px) and (max-device-width: 940px) {
+    .min-col h6 {
+        font-size: 12px;
+        width: 190px;
+        height: 70px;
+        color: #000;
+        background-color: #fff;
+        padding: 20px 0px 5px 0px;
+        margin: 20px;
+    }
+
+    .bilet {
+        padding-top: 39px;
+
+    }
+}
+
+@media only screen and (min-device-width:620px) and (max-device-width: 714px) {
+    .min-col h6 {
+        font-size: 9px;
+        font-weight: 700;
+        width: 170px;
+        height: 60px;
+        color: #000;
+        background-color: #fff;
+        padding: 18px 0px 5px 0px;
+        margin: 20px;
+    }
+
+    .bilet {
+        font-size: 20px;
+        padding-top: 39px;
+
+    }
+}
+
+@media only screen and (min-device-width:540px) and (max-device-width: 620px) {
+    .min-col h6 {
+        font-size: 9px;
+        width: 150px;
+        height: 60px;
+        color: #000;
+        background-color: #fff;
+        padding: 19px 5px 10px 0px;
+        margin: 20px 10px;
+    }
+
+    .bilet {
+        min-width: 20px;
+        max-width: 40px;
+        padding: 19px 11px 10px 0px;
+        padding-top: 39px;
+
+    }
+}
+
+
+@media only screen and (min-device-width:302px) and (max-device-width: 540px) {
+    .min-col h6 {
+        font-size: 8px;
+        width: 110px;
+        height: 50px;
+        color: #000;
+        background-color: #fff;
+        padding: 14px 5px 10px 0px;
+        margin: 20px 3px;
+    }
+
+    .bilet {
+        min-width: 20px;
+        max-width: 35px;
+        padding: 36px 10px 10px 0px;
+        margin-left: 20px;
+    }
+}
+
+.lastNone{
+    display: none;
+}
+
+.lastNone img{
+    margin: -40px 0px 0px 15px;
+}
+
+@media only screen and (min-device-width:50px) and (max-device-width: 301px) {
+    .min-col h6 {
+        font-size: 7px;
+        font-weight: 700;
+        width: 80px;
+        height: 70px;
+        color: #000;
+        background-color: #fff;
+        padding: 40px 0px 10px 1px;
+        margin: 35px 3px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .lastNone{
+        display: block;
+    }
+
+    .bilet {
+        min-width: 20px;
+        max-width: 35px;
+        padding: 36px 10px 10px 0px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-device-width: 310px) {
+    .min-col h6 {
+        font-size: 9px;
+        font-weight: 700;
+        width: 70px;
+        height: 80px;
+        color: #000;
+        background-color: #fff;
+        padding: 10px 0px 10px 1px;
+        margin: 35px 3px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .bilet {
+        padding: 45px 0px 5px 9px;
+        margin-left: 17px;
+    }
+}
+
+@media only screen and (max-device-width: 350px) and (min-device-width: 310px) {
+    .min-col h6 {
+        font-size: 8px;
+        font-weight: 700;
+        width: 92px;
+        height: 60px;
+        color: #000;
+        background-color: #fff;
+        padding: 15px 0px 10px 1px;
+        margin: 35px 3px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .bilet {
+        padding: 50px 0px 5px 13px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (min-device-width:100px) and (max-device-width: 991px) {
+    .third {
+        display: none;
+    }
+
+}
+
+#arrow {
+    font-size: 28px;
+    margin-top: -14px;
+    margin-right: 12px
+}
+
+@media only screen and (max-device-width: 400px) {
+    #info {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-device-width: 339px) {
+    .itd_profile a{
+        width: 80px;
+    }
+
+    .itd_profile a {
+        font-size: 11px;
+    }
+
+    #arrow {
+        font-size: 19px;
+        margin-top: -6px;
+    }
+
+}
+
+@media only screen and (max-device-width: 299px) {
+    .itd_profile {
+        width: 86px;
+    }
+
+    .itd_profile a {
+        font-size: 11px;
+    }
+
+    #arrow {
+        font-size: 17px;
+        margin-top: -5px;
+        margin-right: 20px;
+        margin-left: -5px
+    }
+
+}
+
+@media only screen and (min-device-width:430px) and (max-device-width: 565px) {
+
+    .Early_H1 {
+        margin-left: 30px;
+    }
+
+
+    .blocksOne {
+        padding: 200px 0px 0px 20px;
+        height: 65px;
+    }
+
+    .blocksTwoб .blocksThird,.blocksFourth,.blocksSixth {
+        padding: 60% 0px 0px 20px;
+        height: 365px;
+    }
+
+
+    .blocksFifth {
+        padding: 50% 0px 0px 20px;
+        height: 365px;
+    }
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 10px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -4px;
+        font-size: 13px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -4px;
+        font-size: 11px;
+    }
+}
+
+
+#logo {
+    font-size: 25px;
+}
+
+h6 {
+    padding-top: 1.5%;
+    padding-bottom: 40px;
+}
+
+
+::placeholder {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Внутренние и внешние отступы для группы кнопок*/
+.btn-group {
+    float: left;
+    padding-bottom: 5px;
+    margin: 10px 0px 0px 1px;
+}
+
+.blocks {
+    padding: 30px 0px;
+    height: 603px;
+}
+
+
+.blocksOne {
+    background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
+    color: #fff;
+    padding: 370px 0px 0px 20px;
+    height: 565px;
+    margin-bottom: 50px;
+}
+
+.blocksTwo {
+    background: #fff url(/image/alaksiej-carankievic-4-1klNmnNrI-unsplash\ 1.png) center/100% no-repeat;
+    color: #fff;
+    padding: 350px 0px 0px 20px;
+    height: 566px;
+    margin-bottom: 50px;
+
+}
+
+.blocksThird {
+    background: #fff url(/image/Omsk.jpg) center/100% no-repeat;
+    color: #fff;
+    padding: 370px 0px 0px 20px;
+    height: 565px;
+    margin-bottom: 50px;
+}
+
+
+.blocksFourth {
+    background: #fff url(/image/1631762709_41-krot-mobi-p-nochnoi-krasnodar-krasivie-foto-49\ 1.svg) center/100% no-repeat;
+    color: #fff;
+    padding: 370px 0px 0px 20px;
+    height: 565px;
+    margin-bottom: 50px;
+
+}
+
+.blocksFifth {
+    background: #fff url(/image/f_aW1nLmdlbGlvcGhvdG8uY29tL256aG52cnQvMjhfbnpobnZydC5qcGc_X19pZD0xMzEyMDg=\ 1.svg) center/100% no-repeat;
+    color: #fff;
+    padding: 370px 0px 0px 20px;
+    height: 565px;
+    margin-bottom: 50px;
+
+}
+
+.blocksSixth {
+    background: #fff url(/images/Grozny.jpg) center/100% no-repeat;
+    color: #fff;
+    padding: 370px 0px 0px 20px;
+    height: 565px;
+    margin-bottom: 50px;
+}
+
+/* 
+/*И стили его заголовков */
+.blocksOne h1,
+.blocksTwo h1,
+.blocksThird h1,
+.blocksFourth h1,
+.blocksFifth h1,
+.blocksSixth h1 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.blocksOne h2,
+.blocksTwo h2,
+.blocksThird h2,
+.blocksFourth h2,
+.blocksFifth h2,
+.blocksSixth h2 {
+    font-size: 15px;
+}
+
+.blocksOne h6,
+.blocksTwo h6,
+.blocksThird h6,
+.blocksFourth h6,
+.blocksFifth h6,
+.blocksSixth h6 {
+    font-size: 13px;
+} 
+
+.carousel-control-prev-icon {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 100%;
+}
+ @media only screen and (min-device-width:1199px) and (max-device-width: 1399px) {
+
+    .carousel-control-prev-icon {
+        margin-right: 100px;
+    }
+
+    .carousel-control-next-icon {
+        margin-left: 100px;
+    }
+
+} 
+@media only screen and (max-device-width: 1600px) and (min-device-width: 991px) {
+    .blocksOne {
+        background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+    .blocksTwo {
+        background: #fff url(/image/alaksiej-carankievic-4-1klNmnNrI-unsplash\ 1.png) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksThird {
+        background: #fff url(/image/Omsk.jpg) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+
+    .blocksFourth {
+        background: #fff url(/image/1631762709_41-krot-mobi-p-nochnoi-krasnodar-krasivie-foto-49\ 1.svg) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksFifth {
+        background: #fff url(/image/f_aW1nLmdlbGlvcGhvdG8uY29tL256aG52cnQvMjhfbnpobnZydC5qcGc_X19pZD0xMzEyMDg=\ 1.svg) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksSixth {
+        background: #fff url(/images/Grozny.jpg) center/100% no-repeat;
+        color: #fff;
+        padding: 345px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 29px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -5px;
+        font-size: 16px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -5px;
+        font-size: 13px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 1700px) {
+    .blocksOne {
+        background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+    .blocksTwo {
+        background: #fff url(/image/alaksiej-carankievic-4-1klNmnNrI-unsplash\ 1.png) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksThird {
+        background: #fff url(/image/Omsk.jpg) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+
+    .blocksFourth {
+        background: #fff url(/image/1631762709_41-krot-mobi-p-nochnoi-krasnodar-krasivie-foto-49\ 1.svg) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksFifth {
+        background: #fff url(/image/f_aW1nLmdlbGlvcGhvdG8uY29tL256aG52cnQvMjhfbnpobnZydC5qcGc_X19pZD0xMzEyMDg=\ 1.svg) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+
+    }
+
+    .blocksSixth {
+        background: #fff url(/images/Grozny.jpg) center/100% no-repeat;
+        color: #fff;
+        padding: 400px 0px 0px 20px;
+        height: 565px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 29px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -5px;
+        font-size: 16px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -5px;
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media only screen and (max-device-width: 991px) and (min-device-width: 460px) {
+    .blocksOne,.blocksThird,.blocksFourth,.blocksSixth {
+        padding: 320px 0px 0px 20px;
+        height: 465px;
+    }
+     .blocksTwo, .blocksFifth {
+        padding: 320px 0px 0px 20px;
+        height: 465px;
+    }
+
+}
+
+@media only screen and (max-device-width: 767px) and (min-device-width: 550px) {
+    .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
+        padding: 100% 0px 0px 20px;
+        height: 465px;
+    }
+
+    .blocksFourth {
+        padding: 100% 0px 0px 20px;
+        height: 465px;
+    }
+    .blocksTwo {
+        padding: 100% 0px 0px 20px;
+        height: 465px;
+    }
+
+
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 27px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -4px;
+        font-size: 17px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-device-width: 575px) and (min-device-width: 450px) {
+    #GalHeader h4 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
+        padding: 68% 0px 0px 20px;
+        height: 465px;
+    }
+
+    .blocksFourth {
+        padding: 110% 0px 0px 20px;
+        height: 465px;
+    }
+    .blocksTwo {
+        padding: 90% 0px 0px 20px;
+        height: 465px;
+    }
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 35px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -4px;
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-device-width: 460px) and (min-device-width: 370px) {
+
+    .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
+        padding: 90% 0px 0px 20px;
+        height: 465px;
+    }
+
+    .blocksFourth {
+        padding: 110% 0px 0px 20px;
+        height: 465px;
+    }
+    .blocksTwo {
+        padding: 65% 0px 0px 20px;
+        height: 465px;
+    }
+
+
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 30px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-device-width: 370px) and (min-device-width: 200px) {
+
+    .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
+        padding: 110% 0px 0px 20px;
+        height: 465px;
+    }
+
+    .blocksFourth {
+        padding: 110% 0px 0px 20px;
+        height: 465px;
+    }
+    .blocksTwo {
+        padding: 65% 0px 0px 20px;
+        height: 465px;
+    }
+
+
+
+    .blocksOne h1,
+    .blocksTwo h1,
+    .blocksThird h1,
+    .blocksFourth h1,
+    .blocksFifth h1,
+    .blocksSixth h1 {
+        font-size: 30px;
+    }
+
+
+    .blocksOne h2,
+    .blocksTwo h2,
+    .blocksThird h2,
+    .blocksFourth h2,
+    .blocksFifth h2,
+    .blocksSixth h2 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+
+    .blocksOne h6,
+    .blocksTwo h6,
+    .blocksThird h6,
+    .blocksFourth h6,
+    .blocksFifth h6,
+    .blocksSixth h6 {
+        margin-top: -4px;
+        font-size: 14px;
+    }
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: blue;
+}
+
+#blue {
+    background-color: #3468F0;
+}
+
+#rassilka {
+    background-color: #2E5DD1;
+    margin-top: 206px;
+    margin-bottom: 206px;
+    padding: 20px 0px 78px 50px;
+}
+
+#email {
+    height: 70px;
+    padding: 15px 0px 15px 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#email::placeholder {
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+
+.subscripBut {
+    margin-left: 28px;
+}
+
+
+.subscripTEXT {
+    color: #fff;
+    padding: 10px 0px 15px 0px;
+    height: 70px;
+    font-size: 21px;
+    font-weight: 300;
+    border: none;
+    background-color: #FE7030;
+    border-radius: 15px 15px 15px 15px;
+}
+
+@media only screen and (max-device-width: 767px) {
+    .subscripBut {
+        margin-left: 0;
+    }
+    .subscripTEXT{
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    #email{
+        text-align: center;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+#subscripTEXT::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.subscripTEXT:hover {
+    color: #FE7030;
+    background-color: #fff;
+}
+
+.textFormRas {
+    margin-top: 33px;
+    margin-bottom: 59px;
+}
+
+#podpishite {
+    font-size: 25px;
+    color: #fff;
+}
+
+#uznayte {
+    font-size: 16px;
+    color: #D6D6D6;
+    font-weight: 500;
+}
+
+
+
+/* Основные стили для подвала сайта */
+footer {
+    background-color: #3468F0;
+    width: 100%;
+    min-height: 225px;
+    padding-top: 35px;
+}
+
+@media only screen and (min-device-width: 270px) {
+    footer h4 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #ffffff;
+
+    }
+}
+
+@media only screen and (max-device-width: 575px) {
+    .NavFoot {
+        margin-top: 20px;
+    }
+
+    .blocksTwo ,.blocksFifth{
+        display: none;
+    }
+}
+
+.SocNet {
+    display: none;
+}
+
+@media only screen and (min-device-width: 400px) {
+    .countryNone {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .country,
+    .city {
+        display: none;
+    }
+
+    .SocNet img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .countryNone {
+        text-align: center;
+    }
+
+    .NavFoot:nth-child(4) {
+        margin: auto;
+        text-align: center;
+    }
+
+    #logoSoc {
+        margin: 0;
+        text-align: left;
+    }
+
+    .SocNet {
+        display: list-item;
+        width: 10px;
+        float: left;
+
+    }
+
+    .SocNet400 {
+        display: none;
+    }
+}
+
+footer h5 {
+    font-size: 21px;
+    color: #ffffff;
+    padding-top: 45px;
+
+}
+
+.FontWeight500 h4 {
+    padding: 0px 0px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.SocNet2 img{
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1200px) {
+    .SocNet1 {
+        display: block;
+    }
+
+    .SocNet2 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .SocNet1 {
+        display: none;
+    }
+
+    .SocNet2 {
+        display: block;
+    }
+
+}
+
+
+footer h4:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: 13% underline #0075ec;
+}
+
+/* стили формы регистрации */
+
+#authentication {
+    display: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    z-index: 222;
+    animation-name: fadeIn;
+}
+
+#authentication.open {
+    display: block;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    z-index: 222;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+    display: none;
+}
+
+#delete {
+    background: url(./images/icon-delete.png) no-repeat 50% 50%;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    height: 40px;
+    width: 40px;
+    background-size: 16px;
+    cursor: pointer;
+}
+
+.telF {
+    width: 370px;
+    border: 1px solid#3368EF;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.passwF,.emailF {
+    border: 1px solid#3368EF;
+    border-radius: 20px;
+    padding: 15px 20px;
+    width: 370px;
+}
+
+.passwF::placeholder,.emailF::placeholder {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.telF::placeholder {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.vhod {
+    width: 370px;
+    background-color: #FF6F32;
+    border: 1px solid #FE7030;
+    padding: 15px 0px;
+    border-radius: 20px;
+}
+
+.regist {
+    background-color: #FF6F32;
+    width: 370px;
+    border: 1px solid #FE7030;
+    padding: 15px 0px;
+    border-radius: 20px;
+}
+
+.popup_open {
+    display: block;
+}
+
+.popup__container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.popup__wrapper {
+    padding: 40px;
+}
+
+.btn-success:hover {
+    border: 1px solid #FE7030;
+    color: #FE7030;
+    background-color: #fff;
+}
+
+.visible{
+    display: none;
+}
+
+/* эффект плавного появления  */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
