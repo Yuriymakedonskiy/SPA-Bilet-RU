@@ -17,6 +17,8 @@ body {
     font-weight: 300;
     text-align: center;
     padding-top: 9px;
+    transition: all 0.4s;
+
 }
 
 
@@ -395,6 +397,10 @@ body {
     }
 
 }
+.blocksOne,.blocksFifth,.blocksTwo,.blocksThird,.blocksFourth,.blocksSixth {
+    border-radius: 15px;
+}
+
 
 @media only screen and (min-device-width:430px) and (max-device-width: 565px) {
 
@@ -585,7 +591,11 @@ h6 {
     }
 
 } 
+/* po */
 @media only screen and (max-device-width: 1600px) and (min-device-width: 991px) {
+    .blocksOne,.blocksFifth,.blocksTwo,.blocksThird,.blocksFourth,.blocksSixth {
+    border-radius: 15px;
+}
     .blocksOne {
         background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
         color: #fff;
@@ -672,8 +682,8 @@ h6 {
 
 }
 
-
 @media only screen and (min-device-width: 1700px) {
+    
     .blocksOne {
         background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
         color: #fff;
@@ -771,6 +781,8 @@ h6 {
         padding: 320px 0px 0px 20px;
         height: 465px;
     }
+
+    
 
 }
 
@@ -981,7 +993,7 @@ h6 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
-    background-color: blue;
+    background-color: #FE7030;
 }
 
 #blue {
@@ -1013,6 +1025,8 @@ h6 {
 
 
 .subscripTEXT {
+  transition: all 0.4s;
+
     color: #fff;
     padding: 10px 0px 15px 0px;
     height: 70px;
@@ -1045,6 +1059,7 @@ h6 {
 .subscripTEXT:hover {
     color: #FE7030;
     background-color: #fff;
+
 }
 
 .textFormRas {

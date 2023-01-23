@@ -92,6 +92,9 @@ td {
     font-size: 18px;
     border: none;
     background: none;
+    transition: all 0.4s;
+
+
 }
 
 /*tab links*/
@@ -310,9 +313,12 @@ td {
     color: #fff;
     width: 140px;
     height: 50px;
+    padding-bottom: 5px;
     font-size: 15px;
     background-color: #FE7030;
     border-radius: 0px 15px 15px 0px;
+    transition: all 0.4s;
+
 }
 
 .twidget-form-list li.input-daterange>div {
@@ -343,6 +349,7 @@ td {
     width: 40px;
     background-size: 14px;
     cursor: pointer;
+
 }
 
 .twidget-form-list li.input-daterange .twidget-input-box .twidget-icon-delete {
@@ -364,6 +371,7 @@ td {
     cursor: pointer;
     position: relative;
     background-color: #fff;
+
 }
 
 .twidget-form-list li .twidget-passengers-detail.active,
@@ -558,13 +566,14 @@ td {
     background-color: #00B9FF;
 }
 
+/* knopka */
 .datepicker-cancel-return-date {
     color: #fff !important;
     position: absolute;
     display: block !important;
     margin-top: 0;
     left: 43px;
-    width: 160px !important;
+    width: 180px !important;
     line-height: 17px;
     border: 1px solid #ffa600 !important;
     border-radius: 40px !important;
@@ -572,6 +581,13 @@ td {
     font-size: 11px;
     cursor: pointer;
     background-color: #ffa600;
+    transition: all 0.4s;
+}
+.datepicker-cancel-return-date:hover {
+    color: #ffa600 !important;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition: all 0.4s;
 }
 
 /*passenger slection*/
@@ -734,6 +750,8 @@ td {
     color: #fff;
     cursor: pointer;
     clear: both;
+    transition: all 0.4s;
+
 }
 
 .twidget-passengers-ready-button:hover {
@@ -789,6 +807,7 @@ td {
     overflow: hidden;
     cursor: pointer;
     color: #424242;
+    transition: all 0.9s;
     white-space: nowrap;
 }
 
@@ -1141,6 +1160,8 @@ td {
         font-size: 15px;
         background-color: #FE7030;
         border-radius: 0px 0px 15px 15px;
+        transition: all 0.4s;
+    
     }
 
     .twidget-date-text {
@@ -1259,6 +1280,8 @@ td {
         font-size: 15px;
         background-color: #FE7030;
         border-radius: 0px 0px 15px 15px;
+        transition: all 0.4s;
+
     }
 
 
@@ -1357,6 +1380,11 @@ td {
     }
 }
 
+.twidget-form-list li button:hover {
+    background-color: #fff;
+    color:#FE7030;
+}
+
 
 @media only screen and (min-device-width: 224px) and (max-device-width:659px) { 
     
@@ -1370,6 +1398,8 @@ td {
         font-size: 15px;
         background-color: #FE7030;
         border-radius: 0px 0px 15px 15px;
+        transition: all 0.4s;
+
     }
     
     #twidget-tab1 .twidget-form-list li.twidget-origin input[type="text"]{
