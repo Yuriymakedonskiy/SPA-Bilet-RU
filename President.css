@@ -332,3 +332,19 @@ border-radius: 25px;
 transition: all 0.3s;
 /* z-index: -2; */
 }
+
+.aMargin{
+  margin-top: 50px;
+}
+
+.OpenBlogs{
+  background-color: #fff;
+  color: #FE7030;
+}
+
+.OpenBlogs:hover{
+  background-color: #FE7030;
+  color: #fff;
+}
+
+

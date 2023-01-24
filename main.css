@@ -582,6 +582,9 @@ h6 {
 }
  @media only screen and (min-device-width:1199px) and (max-device-width: 1399px) {
 
+    .blocksOne,.blocksFifth,.blocksTwo,.blocksThird,.blocksFourth,.blocksSixth {
+        border: 15px;
+    }
     .carousel-control-prev-icon {
         margin-right: 100px;
     }
@@ -776,6 +779,8 @@ h6 {
     .blocksOne,.blocksThird,.blocksFourth,.blocksSixth {
         padding: 320px 0px 0px 20px;
         height: 465px;
+        border-radius: 15px;
+
     }
      .blocksTwo, .blocksFifth {
         padding: 320px 0px 0px 20px;
@@ -790,6 +795,8 @@ h6 {
     .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
         padding: 100% 0px 0px 20px;
         height: 465px;
+        border-radius: 15px;
+
     }
 
     .blocksFourth {
@@ -847,6 +854,8 @@ h6 {
     .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
         padding: 68% 0px 0px 20px;
         height: 465px;
+        border-radius: 15px;
+
     }
 
     .blocksFourth {
@@ -895,6 +904,8 @@ h6 {
     .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
         padding: 90% 0px 0px 20px;
         height: 465px;
+        border-radius: 15px;
+
     }
 
     .blocksFourth {
@@ -946,6 +957,8 @@ h6 {
     .blocksOne,.blocksTwo ,.blocksThird, .blocksFifth,.blocksSixth{
         padding: 110% 0px 0px 20px;
         height: 465px;
+        border-radius: 15px;
+
     }
 
     .blocksFourth {
@@ -998,6 +1011,10 @@ h6 {
 
 #blue {
     background-color: #3468F0;
+}
+
+.OpenBlogs{
+  transition: all 0.9s;
 }
 
 #rassilka {

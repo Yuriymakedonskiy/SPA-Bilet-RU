@@ -302,10 +302,12 @@
     
     
     <div class="blog-slider">
-        <div class="a">
-            <div class="blog-slider__wrp swiper-wrapper ">
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
+        <div class="aMargin">
+
+            <div class="a">
+                <div class="blog-slider__wrp swiper-wrapper ">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
 
                         <img src="/images/Sochi.png" alt="">
                     </div>
@@ -315,24 +317,24 @@
                         <div class="blog-slider__text">Его любимое место - Сочи. Еще до зимних Олимпийских игр 2014 года
                             он много раз ездил туда в 2000-е годы, пробуя новые склоны и встречаясь с профессиональными
                             лыжниками и менеджерами курортов</div>
-                        <a href="/" class="blog-slider__button ">КУПИТЬ БИЛЕТ</a>
+                            <a href="/" class="blog-slider__button ">КУПИТЬ БИЛЕТ</a>
+                        <a class="blog-slider__button OpenBlogs">А ГДЕ ЕЩЁ?</a>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="a">
-            <div class="blog-slider__item swiper-slide">
-                <div class="blog-slider__img">
+    </div>
+    <br>
+        <div class="aMargin">
+
+            <div class="a aNone visible ">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
                     <img src="img/scale_1200.png" alt="">
                 </div>
                 <div class="blog-slider__content">
-                    <div class="blog-slider__title">Республика Тыва</div>
-                    <span class="blog-slider__code">Любимый зимний вид спорта Путина - лыжи. </span>
+                    <h1>Республика Тыва</h1>
+                    <span class="blog-slider__code">Любимое хобби Путина - рыбалка. </span>
                     <div class="blog-slider__text"> Во время подводной охоты на щуку к голове Путина была пристегнута
                         камера GoPro, и кадры от первого лица транслировались по национальному телевидению. По данным
                         Кремля, в тот день президент рыбачил несколько часов.</div>
@@ -340,34 +342,34 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="a">
+    </div>
+    <div class="aMargin">
 
+        <div class="a aNone2 visible">
+            
             <div class="blog-slider__item swiper-slide">
                 <div class="blog-slider__img">
                     <img src="/images/Ilmen.png" alt="">
                 </div>
                 <div class="blog-slider__content">
-                    <!-- <span class="blog-slider__code">26 December 2019</span> -->
                     <div class="blog-slider__title">Озеро Ильмень, Остров Липно</div>
+                    <span class="blog-slider__code">Любимое хобби Путина - рыбалка. </span>
                     <div class="blog-slider__text">Еще одна совместная поездка с Медведевым состоялась в сентябре 2016
                         года на озеро Ильмень в Новгородской области. Путин осмотрел остров, прокатился на лодке,
                         посетил старую церковь и поел ухи с местными рыбаками. </div>
                     <a href="#" class="blog-slider__button">КУПИТЬ БИЛЕТ</a>
+                    <a class="blog-slider__button CloseBlogs ">СВЕРНУТЬ</a>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <div class="blog-slider__pagination"></div>
-    </div>
+</div>
 
 
 
-    <!-- ФОРМА РАССЫЛКИ -->
+<!-- ФОРМА РАССЫЛКИ -->
     <form id="rassilka">
         <div class="col-12">
             <div class="container">
@@ -567,6 +569,11 @@
         const form = document.querySelector('#authentication');
         const popup = document.querySelector('.popup');
         const delet = document.querySelector('#delete');
+        
+        const knopkaOpen = document.querySelector('.OpenBlogs');
+        const blogPutin = document.querySelector('.aNone');
+        const blogPutin2 = document.querySelector('.aNone2');
+        const knopkaClose= document.querySelector('.CloseBlogs');
 
         button.addEventListener('click', () => {
             form.classList.remove('visible');
@@ -574,13 +581,29 @@
 
             form.classList.add('open');
             popup.classList.add('popup_open');
+            
         });
-
+        
         delet.addEventListener('click', () => {
             form.classList.add('visible');
             popup.classList.add('visible');
-            // $( "#foo" ).removeClass( className );
         });
+        
+        // blogPutin.classList.add('visible');
+        // blogPutin2.classList.add('visible');
+
+
+        knopkaOpen.addEventListener('click', () => {
+            blogPutin.classList.remove('visible');
+            blogPutin2.classList.remove('visible');
+        });
+      
+        knopkaClose.addEventListener('click', () => {
+            blogPutin.classList.add('visible');
+            blogPutin2.classList.add('visible');
+        });
+
+        
 
 
         $('#twidget').twidget({
