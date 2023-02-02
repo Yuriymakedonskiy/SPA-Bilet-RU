@@ -485,6 +485,11 @@ h6 {
     height: 603px;
 }
 
+.carousel-item a{
+    /* text-overflow: ; */
+    text-decoration: none;
+}
+
 
 .blocksOne {
     background: #fff url(/image/olga-nayda-NhCcPAp-pCI-unsplash\ 1.png) center/100% no-repeat;
@@ -1219,28 +1224,48 @@ footer h4:hover {
 
 /* стили формы регистрации */
 
+#or {
+    position: relative;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#or>#spanOR {
+    display: inline-block;
+    margin: 0.4em;
+}
+
+#or>#spanOR:before,
+#or>#spanOR:after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    border-top: 0.6px solid #4e4e4e;
+    margin-top: .6em;
+}
+
+#or>#spanOR:before {
+    margin-left: -134px;
+}
+
+#or>#spanOR:after {
+    margin-left: 2%;
+}
+
 #authentication {
     display: none;
+    /* эффект появления  */
     animation-duration: 1.5s;
     animation-fill-mode: both;
-    z-index: 222;
     animation-name: fadeIn;
+
+    z-index: 222;
 }
 
 #authentication.open {
     display: block;
-}
-
-.popup {
-    position: fixed;
-    width: 100%;
-    z-index: 222;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s ease;
-    display: none;
 }
 
 #delete {
@@ -1289,11 +1314,14 @@ footer h4:hover {
 }
 
 .regist {
+    color: #fff;
+    text-transform: uppercase; 
+    margin-top: -15px;
     background-color: #FF6F32;
-    width: 370px;
-    border: 1px solid #FE7030;
+    width: 100%;
+    border: 2px solid #FE7030;
     padding: 15px 0px;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .popup_open {
@@ -1320,8 +1348,37 @@ footer h4:hover {
     background-color: #fff;
 }
 
+.regist:hover {
+    /* Пробуй разное */
+    border-top: 2px solid #FE7030;
+    border-left: 2px solid  #fff;
+    border-right: 2px solid  #fff;
+    border-bottom: 2px solid #fff;
+/*     
+    border-top: 2px solid #FE7030;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff; */
+
+    color: #FE7030;
+    background-color: #fff;
+}
+
 .visible{
     display: none;
+}
+
+
+.popup {
+    position: fixed;
+    width: 100%;
+    z-index: 222;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 1.5s ease;
+    /* display: none; */
 }
 
 /* эффект плавного появления  */

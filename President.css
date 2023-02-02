@@ -337,12 +337,12 @@ transition: all 0.3s;
   margin-top: 50px;
 }
 
-.OpenBlogs{
+.OpenBlogs, .CloseBlogs{
   background-color: #fff;
   color: #FE7030;
 }
 
-.OpenBlogs:hover{
+.OpenBlogs:hover,.CloseBlogs:hover{
   background-color: #FE7030;
   color: #fff;
 }
